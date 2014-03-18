@@ -67,6 +67,12 @@
                 document.getElementById('second').value = "";
             }
         }
+        function reset() {
+            document.getElementById('first').value = "";
+            document.getElementById('second').value = "";
+            document.getElementById('tab').value = "";
+            document.getElementById('action').value = "";
+        }
     </script>
 </head>
 <body >
@@ -92,6 +98,7 @@
             <button name="inc" id="inc" onclick="getnum1()">*</button>
             <br>
             <button value="0" onclick="ch(0)">0</button>
+            <button onclick="reset()">C</button>
             <button name="del" id="del" onclick="getnum1()">/</button>
             <button id="rez" onclick="getnum2()">=</button>
             <br>
