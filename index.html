@@ -3,6 +3,34 @@
 <head>
     <title></title>
     <style>
+        body {
+            margin:0;
+            padding:0;
+        }
+        .main_block {
+            width: 200px;
+            margin: 0 auto;
+            margin-top: 20px;
+            background: #4E729A;
+        }
+        button {
+            width: 35px;
+            height: 35px;
+            margin: 3px;
+        }
+        .tablo input {
+            width: 168px;
+            margin-left: 12px;
+            margin-top: 12px;
+            margin-bottom: 12px;
+            border: 2px solid #4285f4;
+            border-radius: 5px;
+            height: 30px;
+            padding: 0px 0px 0px 5px;
+        }
+        .numbers {
+            margin-left:12px;
+        }
     </style>
     <script>
 
@@ -41,7 +69,7 @@
         }
     </script>
 </head>
-<body style="margin-left:10px;margin-top:10px;">
+<body >
 
     <div class="main_block">
         <div class="tablo">
@@ -72,9 +100,9 @@
 
 
             
-            <input type="text" id="first">
-            <input type="text" id="second">
-            <input type="text" id="action">
+            <input type="hidden" id="first">
+            <input type="hidden" id="second">
+            <input type="hidden" id="action">
         </div>
     </div>
 </body>
